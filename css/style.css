@@ -1,0 +1,595 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F2F2F2;
+  color: #000;
+}
+
+header {
+  height: 50px;
+  background: #000;
+}
+
+.nav {
+
+}
+
+.nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 18px;
+  opacity: 0.5;
+  position: relative;
+  top: 16px
+}
+
+.nav a:hover {
+  opacity: 0.7;
+}
+
+.nav a.active {
+  opacity: 1;
+}
+
+.nav--right {
+  text-align: right;
+}
+
+.logo {
+  width: 64px;
+  margin: auto;
+  position: relative;
+  top: 16px;
+}
+
+.mrg--right {
+  margin-right: 30px
+}
+
+.mrg--top {
+  margin-top: 30px;
+}
+
+.mrg--top__small {
+  margin-top: 10px;
+}
+
+.mrg--top__mdm {
+  margin-top: 20px;
+}
+
+.mrg--bottom {
+  margin-bottom: 30px;
+}
+
+.mrg--bottom__mdm {
+  margin-bottom: 20px;
+}
+
+.mrg--negative {
+  margin-left: -15px;
+}
+
+.position--neg__top {
+  position: relative;
+  top: -60px;
+}
+
+a.button__primary {
+    padding: 15px;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #43739B;
+}
+
+#featured {
+  height: 300px;
+  background: #000;
+  width: 100%;
+  color: #fff;
+  background-image:linear-gradient(-90deg, rgba(0,0,0,0.00) 35%, #000000 50%), url('../img/featured_image@2x.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#featured .featured__content {
+  position: relative;
+  top: 68px;
+}
+
+#featured h1 {
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+#featured p {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-top: 8px;
+}
+
+#welcome {
+  background: #fff;
+  width: 100%;
+  height: 70px;
+}
+
+#welcome p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  padding: 26px 0;
+}
+
+#welcome p span {
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+#interviews {
+  color: #fff;
+}
+
+.interview {
+  min-height: 350px;
+  background: #000;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.30);
+  display: inherit;
+}
+
+.hvr-grow-shadow {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.interview h1 {
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: 500;
+  text-align: center;
+}
+
+.interview p {
+  opacity: 0.5;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.interview__content {
+  position: relative;
+}
+
+.interview__tag {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.interview__tag span {
+  font-size: 16px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  border-radius: 50%;
+  background: #000;
+  background-size: cover;
+}
+
+.bottombar {
+  background: #fff;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+  color: #000;
+}
+
+.bottombar span {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  bottom: 22px;
+}
+
+.product-row {
+  top: 11px;
+  left: 11px;
+  position: relative;
+}
+.product {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: #D8D8D8;
+  display: inline-block;
+  border:4px solid #fff;
+  background-size: cover;
+}
+
+.z-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.z-2 {
+  position: relative;
+  z-index: 2;
+}
+
+.z-3 {
+  position: relative;
+  z-index: 3;
+}
+
+.z-4 {
+  position: relative;
+  z-index: 4;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(119,119,119,0.90);
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 100px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+    min-width: 140px;
+}
+
+.tooltip-right {
+  top: 5px;
+  left: 80%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+#interview__head {
+  background: #000;
+  height: 300px;
+  color: #fff;
+}
+
+#interview__head h1 {
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+#interview__head p {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-top: 8px;
+}
+
+.interviewee {
+  text-align: center;
+  padding: 65px 0;
+  max-width: 455px;
+  margin: auto;
+}
+
+.interview__container {
+  background: #fff;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.30);
+  margin-top: -32px;
+  min-height: 500px;
+  padding-bottom: 60px;
+}
+
+.interview__container h1 {
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+.interview__container p {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-top: 8px;
+}
+
+.product__container {
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+}
+
+.product__placement {
+  padding: 20px;
+  padding-bottom: 17px;
+}
+
+.product__placement p {
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.product__img {
+  width: 80px;
+  height: 80px;
+  background: #000;
+  display: inline-block;
+  background-size: cover;
+}
+
+.product__container h2, .product__container p {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.amazon {
+  background: #fff;
+  color: #000;
+  border-radius: 100px;
+  border: 1px solid #E5E5E5;
+}
+
+#interview__body span, #shop__items span {
+  font-size: 14px;
+  line-height: 1;
+  padding: 4px 10px;
+  font-weight: 500;
+  position: relative;
+  bottom: 8px;
+  margin-left: 15px;
+}
+
+.avatar-rail {
+  margin-left: 8px;
+  display: inline-block;
+}
+.mini-avatar {
+  height: 26px;
+  width: 26px;
+  background: #E5E5E5;
+  border-radius: 100px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.product__container h2 {
+  font-size: 18px;
+}
+
+.product__container p {
+  margin-top: 20px;
+}
+
+.buy {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  border: 1px solid #E5E5E5;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: #28AE61;
+  border: 1px solid transparent;
+  color: #fff;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.buy:hover span {display:none}
+.buy:before {
+  content: "$22.50";
+  position: absolute;
+  top: 30px;
+  font-size; 18px;
+  font-weight: 500;
+  width: 80px;
+  margin: auto;
+  text-align: center;
+}
+.buy:hover:before {
+  content: "Buy Now";
+  text-decoration: underline;
+  position: absolute;
+  top: 30px;
+  font-size; 18px;
+  font-weight: 500;
+  width: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+#shop {
+  height: 270px;
+  background: #000;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+#shop .shop__content {
+  position: relative;
+  top: 65px;
+}
+
+#shop h1 {
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+#shop p {
+  font-size: 16px;
+  line-height: 1.9;
+  margin-top: 8px;
+  color: #808080;
+}
+
+#shop p span {
+  font-size: 20px;
+}
+
+.tags a {
+  padding: 10px 15px;
+  border: 1px solid rgba(255,255,255,0.30);
+  border-radius: 100px;
+  color: rgba(255,255,255,0.50);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  display: inline-block;
+}
+
+a.tag--active {
+  color: #000;
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+#filterbar {
+  background: #fff;
+  width: 100%;
+}
+
+#filterbar a {
+  padding: 12px 0px;
+  display: inline-block;
+}
+
+.sort {
+  text-align: right;
+}
+
+#shop__items {
+
+}
+
+.shop__item--container {
+  background: #fff;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.30);
+}
+
+.no-border {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.border-top--none {
+  border-top: none;
+}
+
+#footer {
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright img {
+  margin: 0px 3px 4px 3px;
+}
+
+
+/*Product Pricing*/
+.crockpot:hover span {display:none}
+.crockpot:before {
+  content: "$24.74";
+}
+
+.whey:hover span {display:none}
+.whey:before {
+  content: "$29.59";
+}
+
+.creatine:hover span {display:none}
+.creatine:before {
+  content: "$13.71";
+}
+
+.vitamin-d3:hover span {display:none}
+.vitamin-d3:before {
+  content: "$14.99";
+}
+
+.fish-oil:hover span {display:none}
+.fish-oil:before {
+  content: "$28.46";
+}
