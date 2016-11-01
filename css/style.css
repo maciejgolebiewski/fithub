@@ -27,7 +27,7 @@ header {
   opacity: 0.7;
 }
 
-.nav a.active {
+span.active a {
   opacity: 1;
 }
 
@@ -567,6 +567,9 @@ a.tag--active {
   margin: 0px 3px 4px 3px;
 }
 
+#interview__body a {
+  text-decoration: underline;
+}
 
 /*Product Pricing*/
 .crockpot:hover span {display:none}
@@ -592,4 +595,49 @@ a.tag--active {
 .fish-oil:hover span {display:none}
 .fish-oil:before {
   content: "$28.46";
+}
+
+.food-scale:hover span {display:none}
+.food-scale:before {
+  content: "$10.88";
+}
+
+.nutribullet:hover span {display:none}
+.nutribullet:before {
+  content: "$79.99";
+}
+
+.marley-headphones:hover span {display:none}
+.marley-headphones:before {
+  content: "$21.49";
+}
+
+.bose:hover span {display:none}
+.bose:before {
+  content: "$116.00";
+}
+
+.c4:hover span {display:none}
+.c4:before {
+  content: "$25.65";
+}
+
+.six-star-protein:hover span {display:none}
+.six-star-protein:before {
+  content: "$18.01";
+}
+
+.wrist-wraps:hover span {display:none}
+.wrist-wraps:before {
+  content: "$13.77";
+}
+
+.insoles:hover span {display:none}
+.insoles:before {
+  content: "$13.33";
+}
+
+.lifting-belt:hover span {display:none}
+.lifting-belt:before {
+  content: "$19.18";
 }
