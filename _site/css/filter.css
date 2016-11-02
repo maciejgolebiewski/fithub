@@ -1,0 +1,103 @@
+button{
+  padding: 10px 15px;
+  border: 1px solid rgba(255,255,255,0.30);
+  border-radius: 100px;
+  color: rgba(255,255,255,0.50);
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button.active{
+  color: #000;
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+button:focus{
+  outline: 0 none;
+}
+
+button.sort {
+  padding: 10px 15px;
+  border: 1px solid rgba(255,255,255,0.30);
+  border-radius: 100px;
+  color: #000;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.rail {
+  background: #E5E5E5;
+  border-radius: 100px;
+  position: relative;
+  top: 8px;
+}
+
+#filterbar button {
+  border: none;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  background: #E5E5E5;
+  border-radius: 100px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 4px 10px;
+}
+
+#filterbar button.sort.active{
+  color: #fff;
+  background: #4BA86B;
+}
+
+.container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container .mix{
+  display: none;
+}
+
+.container .mix.category-1{
+
+}
+
+.container .mix.category-2{
+
+}
+
+.container .mix:after{
+  content: attr(data-myorder);
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  top: -9999px;
+}
+
+.container .mix:before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+}
+
+@media all and (min-width: 420px){
+  .container .mix,
+  .container .gap{
+    width: 32%;
+  }
+}
+
+@media all and (min-width: 640px){
+  .container .mix,
+  .container .gap{
+    width: 23.5%;
+  }
+}
