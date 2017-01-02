@@ -66,26 +66,27 @@
                       <p>
                         Curabitur lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis.
                       </p>
-
+											{% for item in site.products %}
 											<div class="product__container mrg--top"><!--start prodcut-->
 												<div class="product__placement">
 
 
-												<div class="product__img">
+												<div class="product__img"
+                        style="background-image:url('{{ item.img_url }}');">
 
 												</div>
-												<h2>CAP Roll Up EVA Foam Exercise Mat</h2>
+												<h2>{{ item.title }}</h2>
 												<p>
-													Open source Heroku on your own servers
+													{{ item.subheading }}
 												</p>
-												<span class="amazon tag">Amazon Prime</span>
+												<span class="amazon tag">{{ item.tag}}</span>
 
-												<a class="buy">
+													<a target="_blank" href="{{ item.amazon_link}}" class="buy {{ item.buy_class}}">
 
 												</a>
 												</div>
 											</div><!-- // end product -->
-
+											{% endfor %}
 
 
                   </div>

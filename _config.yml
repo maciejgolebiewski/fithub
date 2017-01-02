@@ -1,0 +1,13 @@
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Fithub
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: Discover the best fitness products curated by the best fitness professionals
+
+#### Under the Hood Stuff #####
+
+# How many articles do you wish to appear on the front page:
+paginate: 3
+
+collections:
+       shop:

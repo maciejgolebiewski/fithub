@@ -142,6 +142,28 @@ title: About
                         </div>
                       </div><!-- // end product -->
 
+                      {% for item in site.faye-jones %}
+                      <div class="product__container mrg--top"><!--start prodcut-->
+                        <div class="product__placement">
+
+
+                        <div class="product__img"
+                        style="background-image:url('{{ item.img_url }}');">
+
+                        </div>
+                        <h2>{{ item.title }}</h2>
+                        <p>
+                          {{ item.subheading }}
+                        </p>
+                        <span class="amazon tag">{{ item.tag}}</span>
+
+                          <a target="_blank" href="{{ item.amazon_link}}" class="buy {{ item.buy_class}}">
+
+                        </a>
+                        </div>
+                      </div><!-- // end product -->
+                      {% endfor %}
+
                       <h1>Where can we go to follow your fitness journey?</h1>
                       <p class="mrg--bottom">
                         I am very passionate about what I do, I run a vlog style fitness YouTube channel which you can find by following this link: <a href="https://www.youtube.com/watch?v=L_Dut8p9Yrk">https://www.youtube.com/watch?v=L_Dut8p9Yrk</a>.
